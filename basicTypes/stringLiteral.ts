@@ -1,6 +1,6 @@
-let click: 'click';
+let click2: 'click';
 
-click = 'click';
+click2 = 'click';
 // click = 'something elese'; Compile error
 
 
