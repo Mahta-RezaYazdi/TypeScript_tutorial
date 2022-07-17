@@ -42,17 +42,19 @@ function forever(): never {
 
 
 // unkown: 
-let unknown: unknown;
-unknown = "known";
-unknown = 10; 
+// let unknown: unknown;
+// unknown = "known";
+// unknown = 10; 
 
-console.log(unknown);
+// console.log(typeof unknown as string);
 
 // const txt: string = unknown; compile error
 
-
-
 // type assertion
 // ?????????????????????????????????????????????????????????????
-const txt: string = unknown as string;
-console.log(txt + 2);
+// const txt: string = (unknown as string);
+// console.log(typeof txt);
+// console.log(typeof unknown as string);
+
+let number = 10; 
+let number2: string = `${number}`;
